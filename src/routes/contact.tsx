@@ -28,9 +28,9 @@ function ContactPage() {
       <section className="container-luxe pb-24 grid lg:grid-cols-12 gap-12">
         <div className="lg:col-span-5 space-y-8">
           {[
-            { i: Mail, t: "Editorial", v: "press@rackyweb.com" },
-            { i: Mail, t: "Partnerships", v: "partners@rackyweb.com" },
-            { i: Phone, t: "Phone", v: "+1 (415) 555-0142" },
+            { i: Mail, t: "Editorial", v: "edwardzethan792@gmail.com" },
+            { i: Mail, t: "Partnerships", v: "edwardzethan792@gmail.com" },
+            { i: Phone, t: "WhatsApp", v: "+234 708 780 6251" },
             { i: MapPin, t: "Headquarters", v: "Lagos · London · New York" },
           ].map((c) => (
             <div key={c.t} className="border-t border-foreground/15 pt-5 flex items-start gap-4">
