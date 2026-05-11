@@ -75,11 +75,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Rackyweb Global Media — Where Business Meets Innovation" },
       { name: "description", content: "A premium global business newsroom and startup marketplace." },
       { name: "author", content: "Rackyweb Global Media" },
-      { property: "og:title", content: "Rackyweb Global Media" },
-      { property: "og:description", content: "Where Business Meets Innovation." },
+      { property: "og:title", content: "Rackyweb Global Media — Where Business Meets Innovation" },
+      { property: "og:description", content: "A premium global business newsroom and startup marketplace." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Rackyweb" },
+      { name: "twitter:title", content: "Rackyweb Global Media — Where Business Meets Innovation" },
+      { name: "twitter:description", content: "A premium global business newsroom and startup marketplace." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/d4ce2b1a-888e-446c-943d-663f61799c5d" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/d4ce2b1a-888e-446c-943d-663f61799c5d" },
     ],
     links: [
       {
