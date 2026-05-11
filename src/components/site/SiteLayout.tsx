@@ -10,7 +10,7 @@ export function SiteLayout({ children }: { children: ReactNode }) {
       <main className="flex-1 pt-24">{children}</main>
       <Footer />
       <a
-        href="https://wa.me/10000000000"
+        href="https://wa.me/2347087806251"
         target="_blank"
         rel="noreferrer"
         className="fixed bottom-6 right-6 z-40 inline-flex items-center gap-2 rounded-full pl-4 pr-5 py-3 bg-emerald text-emerald-foreground shadow-luxe hover:scale-105 transition-transform"
